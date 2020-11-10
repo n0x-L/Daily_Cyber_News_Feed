@@ -136,12 +136,8 @@ emotet_title = '\n#### Emotet ###\n'
 emotet_update = gn.search('allintitle:emotet attack', when = '24h')
 email_message += print_published(emotet_update, emotet_title)
 
-ic_title = '\n####### instantcoffee #######\n'
-instantcoffee = gn.search('intitle:instantcoffee', when = '24h')
-email_message += print_published(instantcoffee, ic_title)
-
 world_news_title = '\n####### Breaking News #######\n'
-world_news = gn.search('breaking news -sports -thestreetjournal', when = '8h')
+world_news = gn.search('breaking news', when = '8h')
 email_message += print_published(world_news, world_news_title)
 
 # Print the message to be sent
