@@ -5,7 +5,7 @@ This simple Python script is set up with custom search queries to grab data on r
 
 1. Clone https://github.com/kotartemiy/pygooglenews
 2. Install the pytz python library for doing timezone conversions:
-    * via terimnal: ```$ pip install pytz```
+    * via terminal: ```$ pip install pytz```
 3. Enter your username and password for your FROM email, then also enter your TO email and FROM email addresses in the ```send_email(email_message)``` function
 4. Either run it ```$ python3 customCyberFeed.py``` or set up a crontab job like I did so that it runs every day: https://www.jcchouinard.com/python-automation-with-cron-on-mac/
 
